@@ -22,7 +22,8 @@ from nltk.probability import FreqDist
 texto = """
 Mi nombre es Irwin Fernandez, Diseñador Gráfico y Productor Multimedia.
 me gusta hacer deporte como natacion y jugar futbol posicion de portero
-ademas me gusta leer, ver peliculas y series, y en ocaciones escuchar musica """
+ademas me gusta leer, ver peliculas y series, y en ocaciones escuchar musica.
+Mis compañeros de proyecto: Ingniero Diego Aranda, Ingeniero Leonardo Santos, Cohorte Luisa Salas y Doctro Gonnzalo Osorio """
 
 # Tokenización: Convertimos el texto en una lista de palabras individuales
 palabras = word_tokenize(texto, language= 'spanish')
